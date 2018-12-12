@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "air/datepicker/rails/qwe/version"
+require "air/datepicker/rails/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "air-datepicker-rails-qwe"
-  spec.version       = Air::Datepicker::Rails::Qwe::VERSION
+  spec.name          = "air-datepicker-rails"
+  spec.version       = Air::Datepicker::Rails::VERSION
   spec.authors       = ["ivan.filenko"]
   spec.email         = ["filenko@uchi.ru"]
 
