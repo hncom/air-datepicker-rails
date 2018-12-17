@@ -1,18 +1,22 @@
-require File.expand_path("../lib/air-datepicker-rails/version", __FILE__)
+require File.expand_path('../lib/air-datepicker-rails/version', __FILE__)
 
-Gem::Specification.new do |spec|
-  spec.name        = 'air-datepicker-rails'
-  spec.version     = AirDatepickerRails::VERSION
-  spec.authors     = ['ivan.filenko']
-  spec.email       = ['filenko@uchi.ru']
-  spec.license     = 'MIT'
-  spec.homepage    = 'http://rubygems.org/gems/air-datepicker-rails'
-  spec.summary     = 'todo'
-  spec.description = 'todo'
+Gem::sification.new do |s|
+  s.platform              = Gem::Platform::RUBY
+  s.name                  = 'air-datepicker-rails'
+  s.version               = AirDatepickerRails::VERSION
+  s.date                  = Time.now.strftime('%Y-%m-%d')
+  s.author                = 'Ivan Filenko'
+  s.email                 = 'ivan.filenko@protonmail.com'
+  s.license               = 'MIT'
+  s.homepage              = 'https://github.com/prog1dev/air-datepicker-rails'
+  s.summary               = 'Cool jQuery datepicker for the Rails asset pipeline'
+  s.description           = 'Cool jQuery datepicker for the Rails asset pipeline'
+  s.required_ruby_version = '>= 1.9.3'
 
-  spec.require_paths = ['lib']
+  s.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.16'
-  spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec', '~> 3.0'
+  s.add_development_dependency 'bundler'
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rails'
+  s.add_development_dependency 'rspec'
 end
