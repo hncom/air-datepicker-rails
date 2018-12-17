@@ -1,6 +1,6 @@
 require 'air-datepicker-rails/version'
 
-module BootstrapDatepickerRails
+module AirDatepickerRails
   module Rails
     class Engine < ::Rails::Engine
     end
