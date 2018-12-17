@@ -30,7 +30,7 @@ Add the following directive to your application.scss:
 
 To enable specific locale add the appropriate directive to your application.js:
 
-    *= require air-datepicker/i18n/datepicker.en
+    //= require air-datepicker/i18n/datepicker.en
 
 There are total of 15 locales to choose from. For the full list check https://github.com/prog1dev/air-datepicker-rails/tree/master/vendor/assets/javascripts/air-datepicker/i18n
 
