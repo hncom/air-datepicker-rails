@@ -1,15 +1,13 @@
-# Air::Datepicker::Rails::Qwe
+# AirDatepickerRails
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/air/datepicker/rails/qwe`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Currently tracking 2.2.3 of air-datepicker: https://github.com/t1m0n/air-datepicker
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'air-datepicker-rails-qwe'
+gem 'air-datepicker-rails'
 ```
 
 And then execute:
@@ -18,11 +16,23 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install air-datepicker-rails-qwe
+    $ gem install air-datepicker-rails
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following directive to your application.js:
+
+    //= require air-datepicker-rails/datepicker
+
+Add the following directive to your application.scss:
+
+    *= require air-datepicker-rails
+
+To enable specific locale add the appropriate directive to your application.js:
+
+    *= require air-datepicker/i18n/datepicker.en
+
+There are total of 15 locales to choose from. For the full list check https://github.com/prog1dev/air-datepicker-rails/tree/master/vendor/assets/javascripts/air-datepicker/i18n
 
 ## Development
 
