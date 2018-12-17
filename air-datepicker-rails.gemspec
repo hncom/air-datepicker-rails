@@ -1,6 +1,6 @@
 require File.expand_path('../lib/air-datepicker-rails/version', __FILE__)
 
-Gem::sification.new do |s|
+Gem::Specification.new do |s|
   s.platform              = Gem::Platform::RUBY
   s.name                  = 'air-datepicker-rails'
   s.version               = AirDatepickerRails::VERSION
