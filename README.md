@@ -1,4 +1,4 @@
-# AirDatepickerRails
+# AirDatepickerRails [![Gem Version](https://badge.fury.io/rb/air-datepicker-rails.svg)](https://badge.fury.io/rb/air-datepicker-rails)
 
 Currently tracking 2.2.3 of air-datepicker: https://github.com/t1m0n/air-datepicker
 
